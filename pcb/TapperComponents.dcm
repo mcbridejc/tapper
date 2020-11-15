@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NUCLEO-G431KB
+F Manufacturer rEcommendation
+$ENDCMP
+#
+$CMP VIN
+D Power symbol creates a global label with name "VIN"
+K power-flag
+$ENDCMP
+#
+#End Doc Library
