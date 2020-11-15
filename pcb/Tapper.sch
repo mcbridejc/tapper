@@ -1,0 +1,1330 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:L7805 U1
+U 1 1 5F94E287
+P 2800 6200
+F 0 "U1" H 2800 6442 50  0000 C CNN
+F 1 "L7805" H 2800 6351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 2825 6050 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2800 6150 50  0001 C CNN
+F 4 "L7805ABD2T-TR" H 2800 6200 50  0001 C CNN "Mfg Part Number"
+	1    2800 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack J1
+U 1 1 5F94EB64
+P 1400 6300
+F 0 "J1" H 1457 6625 50  0000 C CNN
+F 1 "Barrel_Jack" H 1457 6534 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1450 6260 50  0001 C CNN
+F 3 "~" H 1450 6260 50  0001 C CNN
+	1    1400 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TapperComponents:NUCLEO-G431KB A1
+U 1 1 5F94FB82
+P 3400 2250
+F 0 "A1" H 3508 3215 50  0000 C CNN
+F 1 "NUCLEO-G431KB" H 3508 3124 50  0000 C CNN
+F 2 "TapperFootprints:MODULE_NUCLEO-32" H 3400 2250 50  0001 L BNN
+F 3 "Manufacturer rEcommendation" H 3400 2250 50  0001 L BNN
+F 4 "ST Microelectronics" H 3400 2250 50  0001 L BNN "Field4"
+F 5 "3" H 3400 2250 50  0001 L BNN "Field5"
+	1    3400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TapperComponents:NUCLEO-G431KB A1
+U 2 1 5F950050
+P 3400 4200
+F 0 "A1" H 3508 5165 50  0000 C CNN
+F 1 "NUCLEO-G431KB" H 3508 5074 50  0000 C CNN
+F 2 "TapperFootprints:MODULE_NUCLEO-32" H 3400 4200 50  0001 L BNN
+F 3 "Manufacturer rEcommendation" H 3400 4200 50  0001 L BNN
+F 4 "ST Microelectronics" H 3400 4200 50  0001 L BNN "Field4"
+F 5 "3" H 3400 4200 50  0001 L BNN "Field5"
+	2    3400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F9557C9
+P 7850 5400
+F 0 "H1" H 7950 5446 50  0000 L CNN
+F 1 "MountingHole" H 7950 5355 50  0000 L CNN
+F 2 "TapperFootprints:SpacerPad" H 7850 5400 50  0001 C CNN
+F 3 "~" H 7850 5400 50  0001 C CNN
+	1    7850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F955C08
+P 7850 5600
+F 0 "H2" H 7950 5646 50  0000 L CNN
+F 1 "MountingHole" H 7950 5555 50  0000 L CNN
+F 2 "TapperFootprints:SpacerPad" H 7850 5600 50  0001 C CNN
+F 3 "~" H 7850 5600 50  0001 C CNN
+	1    7850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F955EC1
+P 7850 5800
+F 0 "H3" H 7950 5846 50  0000 L CNN
+F 1 "MountingHole" H 7950 5755 50  0000 L CNN
+F 2 "TapperFootprints:SpacerPad" H 7850 5800 50  0001 C CNN
+F 3 "~" H 7850 5800 50  0001 C CNN
+	1    7850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F956173
+P 7850 6000
+F 0 "H4" H 7950 6046 50  0000 L CNN
+F 1 "MountingHole" H 7950 5955 50  0000 L CNN
+F 2 "TapperFootprints:SpacerPad" H 7850 6000 50  0001 C CNN
+F 3 "~" H 7850 6000 50  0001 C CNN
+	1    7850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x06_MountingPin J2
+U 1 1 5F957199
+P 9500 1650
+F 0 "J2" H 9588 1564 50  0000 L CNN
+F 1 "Conn_01x06_MountingPin" H 9588 1473 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal" H 9500 1650 50  0001 C CNN
+F 3 "~" H 9500 1650 50  0001 C CNN
+	1    9500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x06_MountingPin J3
+U 1 1 5F959146
+P 9500 2550
+F 0 "J3" H 9588 2464 50  0000 L CNN
+F 1 "Conn_01x06_MountingPin" H 9588 2373 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal" H 9500 2550 50  0001 C CNN
+F 3 "~" H 9500 2550 50  0001 C CNN
+	1    9500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x06_MountingPin J4
+U 1 1 5F959C8D
+P 9500 3450
+F 0 "J4" H 9588 3364 50  0000 L CNN
+F 1 "Conn_01x06_MountingPin" H 9588 3273 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal" H 9500 3450 50  0001 C CNN
+F 3 "~" H 9500 3450 50  0001 C CNN
+	1    9500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5F95E6A2
+P 3350 6400
+F 0 "C2" H 3442 6446 50  0000 L CNN
+F 1 "1uF" H 3442 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 6400 50  0001 C CNN
+F 3 "~" H 3350 6400 50  0001 C CNN
+F 4 "CL21B105KAFNNNG" H 3350 6400 50  0001 C CNN "Mfg Part Number"
+	1    3350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5F95ECAA
+P 2250 6400
+F 0 "C1" H 2342 6446 50  0000 L CNN
+F 1 "10uF" H 2342 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2250 6400 50  0001 C CNN
+F 3 "~" H 2250 6400 50  0001 C CNN
+F 4 "CL31A106KBHNNNE" H 2250 6400 50  0001 C CNN "Mfg Part Number"
+	1    2250 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F969915
+P 4300 1550
+F 0 "TP1" V 4300 1738 50  0000 L CNN
+F 1 "TP" V 4345 1738 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4500 1550 50  0001 C CNN
+F 3 "~" H 4500 1550 50  0001 C CNN
+	1    4300 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F96A5AA
+P 4300 1650
+F 0 "TP2" V 4300 1838 50  0000 L CNN
+F 1 "TP" V 4345 1838 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4500 1650 50  0001 C CNN
+F 3 "~" H 4500 1650 50  0001 C CNN
+	1    4300 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5F96AB98
+P 4300 1950
+F 0 "TP4" V 4300 2138 50  0000 L CNN
+F 1 "TP" V 4345 2138 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4500 1950 50  0001 C CNN
+F 3 "~" H 4500 1950 50  0001 C CNN
+	1    4300 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F96AF35
+P 4300 1750
+F 0 "TP3" V 4300 1938 50  0000 L CNN
+F 1 "TP" V 4345 1938 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4500 1750 50  0001 C CNN
+F 3 "~" H 4500 1750 50  0001 C CNN
+	1    4300 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5F96B350
+P 4300 2150
+F 0 "TP6" V 4300 2338 50  0000 L CNN
+F 1 "TP" V 4345 2338 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4500 2150 50  0001 C CNN
+F 3 "~" H 4500 2150 50  0001 C CNN
+	1    4300 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5F96B56F
+P 4300 2250
+F 0 "TP7" V 4300 2438 50  0000 L CNN
+F 1 "TP" V 4345 2438 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4500 2250 50  0001 C CNN
+F 3 "~" H 4500 2250 50  0001 C CNN
+	1    4300 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5F96B7BE
+P 4300 2350
+F 0 "TP8" V 4300 2538 50  0000 L CNN
+F 1 "TP" V 4345 2538 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4500 2350 50  0001 C CNN
+F 3 "~" H 4500 2350 50  0001 C CNN
+	1    4300 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5F96BB02
+P 4300 2450
+F 0 "TP9" V 4300 2638 50  0000 L CNN
+F 1 "TP" V 4345 2638 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4500 2450 50  0001 C CNN
+F 3 "~" H 4500 2450 50  0001 C CNN
+	1    4300 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5F96C260
+P 4300 2750
+F 0 "TP12" V 4300 2938 50  0000 L CNN
+F 1 "TP" V 4345 2938 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4500 2750 50  0001 C CNN
+F 3 "~" H 4500 2750 50  0001 C CNN
+	1    4300 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5F96C4A1
+P 4300 2850
+F 0 "TP13" V 4300 3038 50  0000 L CNN
+F 1 "TP" V 4345 3038 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4500 2850 50  0001 C CNN
+F 3 "~" H 4500 2850 50  0001 C CNN
+	1    4300 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5F96C6DB
+P 4300 2950
+F 0 "TP14" V 4300 3138 50  0000 L CNN
+F 1 "TP" V 4345 3138 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4500 2950 50  0001 C CNN
+F 3 "~" H 4500 2950 50  0001 C CNN
+	1    4300 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP20
+U 1 1 5F96E3C1
+P 3950 4300
+F 0 "TP20" V 3950 4488 50  0000 L CNN
+F 1 "TP" V 3995 4488 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4150 4300 50  0001 C CNN
+F 3 "~" H 4150 4300 50  0001 C CNN
+	1    3950 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP21
+U 1 1 5F96E68E
+P 3950 4400
+F 0 "TP21" V 3950 4588 50  0000 L CNN
+F 1 "TP" V 3995 4588 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4150 4400 50  0001 C CNN
+F 3 "~" H 4150 4400 50  0001 C CNN
+	1    3950 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP22
+U 1 1 5F96EA58
+P 3950 4500
+F 0 "TP22" V 3950 4688 50  0000 L CNN
+F 1 "TP" V 3995 4688 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4150 4500 50  0001 C CNN
+F 3 "~" H 4150 4500 50  0001 C CNN
+	1    3950 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP23
+U 1 1 5F971664
+P 3950 4600
+F 0 "TP23" V 3950 4788 50  0000 L CNN
+F 1 "TP" V 3995 4788 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4150 4600 50  0001 C CNN
+F 3 "~" H 4150 4600 50  0001 C CNN
+	1    3950 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP24
+U 1 1 5F97185E
+P 3950 4700
+F 0 "TP24" V 3950 4888 50  0000 L CNN
+F 1 "TP" V 3995 4888 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4150 4700 50  0001 C CNN
+F 3 "~" H 4150 4700 50  0001 C CNN
+	1    3950 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP25
+U 1 1 5F97206B
+P 3950 4900
+F 0 "TP25" V 3950 5088 50  0000 L CNN
+F 1 "TP" V 3995 5088 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 4150 4900 50  0001 C CNN
+F 3 "~" H 4150 4900 50  0001 C CNN
+	1    3950 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 1550 4300 1550
+Wire Wire Line
+	4300 1650 3800 1650
+Wire Wire Line
+	3800 1750 4300 1750
+Wire Wire Line
+	4300 1950 3800 1950
+Wire Wire Line
+	4300 2150 3800 2150
+Wire Wire Line
+	3800 2250 4300 2250
+Wire Wire Line
+	3800 2450 4300 2450
+Wire Wire Line
+	3800 2350 4300 2350
+Wire Wire Line
+	3800 2650 4300 2650
+Wire Wire Line
+	3800 2750 4300 2750
+Wire Wire Line
+	3800 2850 4300 2850
+Wire Wire Line
+	3800 2950 4300 2950
+Wire Wire Line
+	3800 4300 3950 4300
+Wire Wire Line
+	3950 4400 3800 4400
+Wire Wire Line
+	3800 4500 3950 4500
+Wire Wire Line
+	3950 4600 3800 4600
+Wire Wire Line
+	3800 4700 3950 4700
+Wire Wire Line
+	3800 4900 3950 4900
+Wire Wire Line
+	9300 1450 9200 1450
+Wire Wire Line
+	9200 1450 9200 2350
+Wire Wire Line
+	9300 3250 9200 3250
+Connection ~ 9200 3250
+Connection ~ 9200 2350
+Wire Wire Line
+	9200 2350 9200 3250
+$Comp
+L Connector:TestPoint TP26
+U 1 1 5F9841A5
+P 8900 1650
+F 0 "TP26" V 8900 1900 50  0000 C CNN
+F 1 "TP" V 8945 1838 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 1650 50  0001 C CNN
+F 3 "~" H 9100 1650 50  0001 C CNN
+	1    8900 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP27
+U 1 1 5F9848F1
+P 8900 1750
+F 0 "TP27" V 8900 2000 50  0000 C CNN
+F 1 "TP" V 8945 1938 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 1750 50  0001 C CNN
+F 3 "~" H 9100 1750 50  0001 C CNN
+	1    8900 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP28
+U 1 1 5F984D28
+P 8900 1850
+F 0 "TP28" V 8900 2100 50  0000 C CNN
+F 1 "TP" V 8945 2038 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 1850 50  0001 C CNN
+F 3 "~" H 9100 1850 50  0001 C CNN
+	1    8900 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP29
+U 1 1 5F985216
+P 8900 1950
+F 0 "TP29" V 8900 2200 50  0000 C CNN
+F 1 "TP" V 8945 2138 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 1950 50  0001 C CNN
+F 3 "~" H 9100 1950 50  0001 C CNN
+	1    8900 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP30
+U 1 1 5F9886E4
+P 8900 2550
+F 0 "TP30" V 8900 2800 50  0000 C CNN
+F 1 "TP" V 8945 2738 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 2550 50  0001 C CNN
+F 3 "~" H 9100 2550 50  0001 C CNN
+	1    8900 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP31
+U 1 1 5F9886EA
+P 8900 2650
+F 0 "TP31" V 8900 2900 50  0000 C CNN
+F 1 "TP" V 8945 2838 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 2650 50  0001 C CNN
+F 3 "~" H 9100 2650 50  0001 C CNN
+	1    8900 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP32
+U 1 1 5F9886F0
+P 8900 2750
+F 0 "TP32" V 8900 3000 50  0000 C CNN
+F 1 "TP" V 8945 2938 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 2750 50  0001 C CNN
+F 3 "~" H 9100 2750 50  0001 C CNN
+	1    8900 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP33
+U 1 1 5F9886F6
+P 8900 2850
+F 0 "TP33" V 8900 3100 50  0000 C CNN
+F 1 "TP" V 8945 3038 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 2850 50  0001 C CNN
+F 3 "~" H 9100 2850 50  0001 C CNN
+	1    8900 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP34
+U 1 1 5F989707
+P 8900 3450
+F 0 "TP34" V 8900 3700 50  0000 C CNN
+F 1 "TP" V 8945 3638 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 3450 50  0001 C CNN
+F 3 "~" H 9100 3450 50  0001 C CNN
+	1    8900 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP35
+U 1 1 5F98970D
+P 8900 3550
+F 0 "TP35" V 8900 3800 50  0000 C CNN
+F 1 "TP" V 8945 3738 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 3550 50  0001 C CNN
+F 3 "~" H 9100 3550 50  0001 C CNN
+	1    8900 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP36
+U 1 1 5F989713
+P 8900 3650
+F 0 "TP36" V 8900 3900 50  0000 C CNN
+F 1 "TP" V 8945 3838 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 3650 50  0001 C CNN
+F 3 "~" H 9100 3650 50  0001 C CNN
+	1    8900 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP37
+U 1 1 5F989719
+P 8900 3750
+F 0 "TP37" V 8900 4000 50  0000 C CNN
+F 1 "TP" V 8945 3938 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9100 3750 50  0001 C CNN
+F 3 "~" H 9100 3750 50  0001 C CNN
+	1    8900 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 3450 8900 3450
+Wire Wire Line
+	8900 3550 9300 3550
+Wire Wire Line
+	9300 3650 8900 3650
+Wire Wire Line
+	8900 3750 9300 3750
+Wire Wire Line
+	9300 2850 8900 2850
+Wire Wire Line
+	8900 2750 9300 2750
+Wire Wire Line
+	9300 2650 8900 2650
+Wire Wire Line
+	8900 2550 9300 2550
+Wire Wire Line
+	9300 1950 8900 1950
+Wire Wire Line
+	8900 1850 9300 1850
+Wire Wire Line
+	9300 1750 8900 1750
+Wire Wire Line
+	8900 1650 9300 1650
+$Comp
+L TapperComponents:PadArray H5
+U 1 1 5F9AC11C
+P 7850 6300
+F 0 "H5" H 7938 6391 50  0000 L CNN
+F 1 "PadArray" H 7938 6300 50  0000 L CNN
+F 2 "TapperFootprints:ProtoArray_10x10_2.54mm" H 7850 6300 50  0001 C CNN
+F 3 "" H 7850 6300 50  0001 C CNN
+	1    7850 6300
+	1    0    0    -1  
+$EndComp
+Text Label 3950 1550 0    50   ~ 0
+A9
+Text Label 3950 1650 0    50   ~ 0
+A10
+Text Label 3950 1750 0    50   ~ 0
+RSTn
+Text Label 3950 1950 0    50   ~ 0
+A12
+Text Label 3950 2150 0    50   ~ 0
+B7
+Text Label 3950 2250 0    50   ~ 0
+A15
+Text Label 3950 2350 0    50   ~ 0
+B6
+Text Label 3950 2450 0    50   ~ 0
+F0
+Text Label 3950 2750 0    50   ~ 0
+A11
+Text Label 3950 2850 0    50   ~ 0
+B5
+Text Label 3950 2950 0    50   ~ 0
+B4
+Text Notes 3850 3900 0    50   ~ 0
+A2 used for ST-LINK virtual com port
+Text Label 3850 4300 0    50   ~ 0
+A4
+Text Label 3850 4400 0    50   ~ 0
+A3
+Text Label 3850 4500 0    50   ~ 0
+A1
+Text Label 3850 4600 0    50   ~ 0
+A0
+Text Label 3850 4700 0    50   ~ 0
+AREF
+Text Label 3850 4900 0    50   ~ 0
+B3
+$Comp
+L Connector:TestPoint TP15
+U 1 1 5F9C3C94
+P 8800 5600
+F 0 "TP15" V 8800 5850 50  0000 C CNN
+F 1 "TP" V 8845 5788 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9000 5600 50  0001 C CNN
+F 3 "~" H 9000 5600 50  0001 C CNN
+	1    8800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP16
+U 1 1 5F9C58B5
+P 8950 5600
+F 0 "TP16" V 8950 5850 50  0000 C CNN
+F 1 "TP" V 8995 5788 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9150 5600 50  0001 C CNN
+F 3 "~" H 9150 5600 50  0001 C CNN
+	1    8950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP38
+U 1 1 5F9C5AD2
+P 9200 5450
+F 0 "TP38" V 9200 5700 50  0000 C CNN
+F 1 "TP" V 9245 5638 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9400 5450 50  0001 C CNN
+F 3 "~" H 9400 5450 50  0001 C CNN
+	1    9200 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP39
+U 1 1 5F9C5EC4
+P 9450 5450
+F 0 "TP39" V 9450 5700 50  0000 C CNN
+F 1 "TP" V 9495 5638 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9650 5450 50  0001 C CNN
+F 3 "~" H 9650 5450 50  0001 C CNN
+	1    9450 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP40
+U 1 1 5F9C6087
+P 9700 5450
+F 0 "TP40" V 9700 5700 50  0000 C CNN
+F 1 "TP" V 9745 5638 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 9900 5450 50  0001 C CNN
+F 3 "~" H 9900 5450 50  0001 C CNN
+	1    9700 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F9C83B7
+P 3350 6650
+F 0 "#PWR0101" H 3350 6400 50  0001 C CNN
+F 1 "GND" H 3355 6477 50  0000 C CNN
+F 2 "" H 3350 6650 50  0001 C CNN
+F 3 "" H 3350 6650 50  0001 C CNN
+	1    3350 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F9CA85E
+P 4450 3600
+F 0 "#PWR0102" H 4450 3350 50  0001 C CNN
+F 1 "GND" H 4455 3427 50  0000 C CNN
+F 2 "" H 4450 3600 50  0001 C CNN
+F 3 "" H 4450 3600 50  0001 C CNN
+	1    4450 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3600 4450 3550
+Wire Wire Line
+	4450 3550 4350 3550
+Wire Wire Line
+	4350 3550 4350 3600
+Wire Wire Line
+	4350 3600 3800 3600
+$Comp
+L power:+5V #PWR0104
+U 1 1 5F9D095C
+P 4300 3450
+F 0 "#PWR0104" H 4300 3300 50  0001 C CNN
+F 1 "+5V" H 4315 3623 50  0000 C CNN
+F 2 "" H 4300 3450 50  0001 C CNN
+F 3 "" H 4300 3450 50  0001 C CNN
+	1    4300 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3800 4300 3800
+Wire Wire Line
+	4300 3800 4300 3450
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 5F9D2EE4
+P 4600 4700
+F 0 "#PWR0105" H 4600 4550 50  0001 C CNN
+F 1 "+3.3V" H 4615 4873 50  0000 C CNN
+F 2 "" H 4600 4700 50  0001 C CNN
+F 3 "" H 4600 4700 50  0001 C CNN
+	1    4600 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4700 4600 4800
+Wire Wire Line
+	4600 4800 3800 4800
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 5F9D5776
+P 9200 5350
+F 0 "#PWR0106" H 9200 5200 50  0001 C CNN
+F 1 "+3.3V" H 9215 5523 50  0000 C CNN
+F 2 "" H 9200 5350 50  0001 C CNN
+F 3 "" H 9200 5350 50  0001 C CNN
+	1    9200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 5F9D5E95
+P 9450 5350
+F 0 "#PWR0107" H 9450 5200 50  0001 C CNN
+F 1 "+5V" H 9465 5523 50  0000 C CNN
+F 2 "" H 9450 5350 50  0001 C CNN
+F 3 "" H 9450 5350 50  0001 C CNN
+	1    9450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TapperComponents:VIN #PWR0108
+U 1 1 5F9D6748
+P 9700 5350
+F 0 "#PWR0108" H 9700 5200 50  0001 C CNN
+F 1 "VIN" H 9715 5523 50  0000 C CNN
+F 2 "" H 9700 5350 50  0001 C CNN
+F 3 "" H 9700 5350 50  0001 C CNN
+	1    9700 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5F9D70CC
+P 3850 3050
+F 0 "#PWR0109" H 3850 2800 50  0001 C CNN
+F 1 "GND" H 3855 2877 50  0000 C CNN
+F 2 "" H 3850 3050 50  0001 C CNN
+F 3 "" H 3850 3050 50  0001 C CNN
+	1    3850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5350 9200 5450
+Wire Wire Line
+	9450 5350 9450 5450
+Wire Wire Line
+	9700 5350 9700 5450
+Wire Wire Line
+	8800 5600 8800 5700
+Wire Wire Line
+	8800 5700 8850 5700
+Wire Wire Line
+	8950 5700 8950 5600
+$Comp
+L power:GND #PWR0110
+U 1 1 5F9E34FD
+P 8850 5800
+F 0 "#PWR0110" H 8850 5550 50  0001 C CNN
+F 1 "GND" H 8855 5627 50  0000 C CNN
+F 2 "" H 8850 5800 50  0001 C CNN
+F 3 "" H 8850 5800 50  0001 C CNN
+	1    8850 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5800 8850 5700
+Connection ~ 8850 5700
+Wire Wire Line
+	8850 5700 8950 5700
+$Comp
+L power:GND #PWR0111
+U 1 1 5F9E676D
+P 9200 4100
+F 0 "#PWR0111" H 9200 3850 50  0001 C CNN
+F 1 "GND" H 9205 3927 50  0000 C CNN
+F 2 "" H 9200 4100 50  0001 C CNN
+F 3 "" H 9200 4100 50  0001 C CNN
+	1    9200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 2150 9700 2150
+Wire Wire Line
+	9700 2150 9700 3100
+Wire Wire Line
+	9200 3250 9200 4050
+Wire Wire Line
+	9200 4050 9500 4050
+Connection ~ 9200 4050
+Wire Wire Line
+	9200 4050 9200 4100
+Wire Wire Line
+	9500 3950 9500 4050
+Connection ~ 9500 4050
+Wire Wire Line
+	9500 4050 9700 4050
+Wire Wire Line
+	9500 3050 9500 3100
+Wire Wire Line
+	9500 3100 9700 3100
+Connection ~ 9700 3100
+Wire Wire Line
+	9700 3100 9700 4050
+$Comp
+L Jumper:SolderJumper_2_Bridged JP8
+U 1 1 5FA17C9B
+P 8300 2100
+F 0 "JP8" V 8300 2168 50  0000 L CNN
+F 1 "SolderJumper_2_Bridged" V 8345 2168 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8300 2100 50  0001 C CNN
+F 3 "~" H 8300 2100 50  0001 C CNN
+	1    8300 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP5
+U 1 1 5FA17CA1
+P 7850 2100
+F 0 "JP5" V 7850 2168 50  0000 L CNN
+F 1 "SolderJumper_2_Bridged" V 7895 2168 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7850 2100 50  0001 C CNN
+F 3 "~" H 7850 2100 50  0001 C CNN
+	1    7850 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP2
+U 1 1 5FA17CA7
+P 7400 2100
+F 0 "JP2" V 7400 2168 50  0000 L CNN
+F 1 "SolderJumper_2_Bridged" V 7445 2168 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7400 2100 50  0001 C CNN
+F 3 "~" H 7400 2100 50  0001 C CNN
+	1    7400 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L TapperComponents:VIN #PWR0112
+U 1 1 5FA17CAE
+P 8300 1850
+F 0 "#PWR0112" H 8300 1700 50  0001 C CNN
+F 1 "VIN" H 8315 2023 50  0000 C CNN
+F 2 "" H 8300 1850 50  0001 C CNN
+F 3 "" H 8300 1850 50  0001 C CNN
+	1    8300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 5FA17CB4
+P 7850 1850
+F 0 "#PWR0113" H 7850 1700 50  0001 C CNN
+F 1 "+5V" H 7865 2023 50  0000 C CNN
+F 2 "" H 7850 1850 50  0001 C CNN
+F 3 "" H 7850 1850 50  0001 C CNN
+	1    7850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 5FA17CBA
+P 7400 1850
+F 0 "#PWR0114" H 7400 1700 50  0001 C CNN
+F 1 "+3.3V" H 7415 2023 50  0000 C CNN
+F 2 "" H 7400 1850 50  0001 C CNN
+F 3 "" H 7400 1850 50  0001 C CNN
+	1    7400 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1850 7400 1950
+Wire Wire Line
+	7850 1850 7850 1950
+Wire Wire Line
+	8300 1850 8300 1950
+$Comp
+L Jumper:SolderJumper_2_Bridged JP9
+U 1 1 5FA1C266
+P 8300 3000
+F 0 "JP9" V 8300 3068 50  0000 L CNN
+F 1 "SolderJumper_2_Bridged" V 8345 3068 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8300 3000 50  0001 C CNN
+F 3 "~" H 8300 3000 50  0001 C CNN
+	1    8300 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP6
+U 1 1 5FA1C26C
+P 7850 3000
+F 0 "JP6" V 7850 3068 50  0000 L CNN
+F 1 "SolderJumper_2_Bridged" V 7895 3068 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7850 3000 50  0001 C CNN
+F 3 "~" H 7850 3000 50  0001 C CNN
+	1    7850 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP3
+U 1 1 5FA1C272
+P 7400 3000
+F 0 "JP3" V 7400 3068 50  0000 L CNN
+F 1 "SolderJumper_2_Bridged" V 7445 3068 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7400 3000 50  0001 C CNN
+F 3 "~" H 7400 3000 50  0001 C CNN
+	1    7400 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L TapperComponents:VIN #PWR0115
+U 1 1 5FA1C279
+P 8300 2750
+F 0 "#PWR0115" H 8300 2600 50  0001 C CNN
+F 1 "VIN" H 8315 2923 50  0000 C CNN
+F 2 "" H 8300 2750 50  0001 C CNN
+F 3 "" H 8300 2750 50  0001 C CNN
+	1    8300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0116
+U 1 1 5FA1C27F
+P 7850 2750
+F 0 "#PWR0116" H 7850 2600 50  0001 C CNN
+F 1 "+5V" H 7865 2923 50  0000 C CNN
+F 2 "" H 7850 2750 50  0001 C CNN
+F 3 "" H 7850 2750 50  0001 C CNN
+	1    7850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0117
+U 1 1 5FA1C285
+P 7400 2750
+F 0 "#PWR0117" H 7400 2600 50  0001 C CNN
+F 1 "+3.3V" H 7415 2923 50  0000 C CNN
+F 2 "" H 7400 2750 50  0001 C CNN
+F 3 "" H 7400 2750 50  0001 C CNN
+	1    7400 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2750 7400 2850
+Wire Wire Line
+	7850 2750 7850 2850
+Wire Wire Line
+	8300 2750 8300 2850
+$Comp
+L Jumper:SolderJumper_2_Bridged JP7
+U 1 1 5FA25930
+P 8300 1350
+F 0 "JP7" V 8300 1418 50  0000 L CNN
+F 1 "SolderJumper_2_Bridged" V 8345 1418 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8300 1350 50  0001 C CNN
+F 3 "~" H 8300 1350 50  0001 C CNN
+	1    8300 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP4
+U 1 1 5FA25936
+P 7850 1350
+F 0 "JP4" V 7850 1418 50  0000 L CNN
+F 1 "SolderJumper_2_Bridged" V 7895 1418 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7850 1350 50  0001 C CNN
+F 3 "~" H 7850 1350 50  0001 C CNN
+	1    7850 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP1
+U 1 1 5FA2593C
+P 7400 1350
+F 0 "JP1" V 7400 1418 50  0000 L CNN
+F 1 "SolderJumper_2_Bridged" V 7445 1418 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7400 1350 50  0001 C CNN
+F 3 "~" H 7400 1350 50  0001 C CNN
+	1    7400 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L TapperComponents:VIN #PWR0118
+U 1 1 5FA25942
+P 8300 1100
+F 0 "#PWR0118" H 8300 950 50  0001 C CNN
+F 1 "VIN" H 8315 1273 50  0000 C CNN
+F 2 "" H 8300 1100 50  0001 C CNN
+F 3 "" H 8300 1100 50  0001 C CNN
+	1    8300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0119
+U 1 1 5FA25948
+P 7850 1100
+F 0 "#PWR0119" H 7850 950 50  0001 C CNN
+F 1 "+5V" H 7865 1273 50  0000 C CNN
+F 2 "" H 7850 1100 50  0001 C CNN
+F 3 "" H 7850 1100 50  0001 C CNN
+	1    7850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 5FA2594E
+P 7400 1100
+F 0 "#PWR0120" H 7400 950 50  0001 C CNN
+F 1 "+3.3V" H 7415 1273 50  0000 C CNN
+F 2 "" H 7400 1100 50  0001 C CNN
+F 3 "" H 7400 1100 50  0001 C CNN
+	1    7400 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1100 7400 1200
+Wire Wire Line
+	7850 1100 7850 1200
+Wire Wire Line
+	8300 1100 8300 1200
+Wire Wire Line
+	7400 1550 7400 1500
+Wire Wire Line
+	7400 1550 7850 1550
+Wire Wire Line
+	7850 1500 7850 1550
+Connection ~ 7850 1550
+Wire Wire Line
+	7850 1550 8300 1550
+Wire Wire Line
+	8300 1500 8300 1550
+Connection ~ 8300 1550
+Wire Wire Line
+	8300 1550 9300 1550
+Wire Wire Line
+	7400 2450 7850 2450
+Wire Wire Line
+	7400 2250 7400 2450
+Wire Wire Line
+	7850 2250 7850 2450
+Connection ~ 7850 2450
+Wire Wire Line
+	7850 2450 8300 2450
+Wire Wire Line
+	8300 2250 8300 2450
+Connection ~ 8300 2450
+Wire Wire Line
+	8300 2450 9300 2450
+Wire Wire Line
+	7400 3350 7850 3350
+Wire Wire Line
+	7400 3150 7400 3350
+Wire Wire Line
+	7850 3150 7850 3350
+Connection ~ 7850 3350
+Wire Wire Line
+	7850 3350 8300 3350
+Wire Wire Line
+	8300 3150 8300 3350
+Connection ~ 8300 3350
+Wire Wire Line
+	8300 3350 9300 3350
+Wire Wire Line
+	1700 6200 2000 6200
+$Comp
+L TapperComponents:VIN #PWR0121
+U 1 1 5FA523D1
+P 2000 6100
+F 0 "#PWR0121" H 2000 5950 50  0001 C CNN
+F 1 "VIN" H 2015 6273 50  0000 C CNN
+F 2 "" H 2000 6100 50  0001 C CNN
+F 3 "" H 2000 6100 50  0001 C CNN
+	1    2000 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6100 2000 6200
+Connection ~ 2000 6200
+Wire Wire Line
+	2000 6200 2250 6200
+Wire Wire Line
+	2250 6300 2250 6200
+Connection ~ 2250 6200
+Wire Wire Line
+	2250 6200 2500 6200
+Wire Wire Line
+	3100 6200 3350 6200
+Wire Wire Line
+	3350 6200 3350 6300
+Wire Wire Line
+	3350 6650 3350 6600
+Wire Wire Line
+	3350 6600 2800 6600
+Wire Wire Line
+	2800 6600 2800 6500
+Connection ~ 3350 6600
+Wire Wire Line
+	3350 6600 3350 6500
+Wire Wire Line
+	2800 6600 2250 6600
+Wire Wire Line
+	2250 6600 2250 6500
+Connection ~ 2800 6600
+Wire Wire Line
+	1700 6400 2000 6400
+Wire Wire Line
+	2000 6400 2000 6600
+Wire Wire Line
+	2000 6600 2250 6600
+Connection ~ 2250 6600
+$Comp
+L power:+5V #PWR0122
+U 1 1 5FA8EE90
+P 3350 6150
+F 0 "#PWR0122" H 3350 6000 50  0001 C CNN
+F 1 "+5V" H 3365 6323 50  0000 C CNN
+F 2 "" H 3350 6150 50  0001 C CNN
+F 3 "" H 3350 6150 50  0001 C CNN
+	1    3350 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6150 3350 6200
+Connection ~ 3350 6200
+Wire Wire Line
+	9200 2350 9300 2350
+$Comp
+L Connector_Generic:Conn_01x14 J5
+U 1 1 5FAEDE98
+P 7150 4450
+F 0 "J5" H 7230 4442 50  0000 L CNN
+F 1 "Conn_01x14" H 7230 4351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 7150 4450 50  0001 C CNN
+F 3 "~" H 7150 4450 50  0001 C CNN
+	1    7150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR02
+U 1 1 5FAF0FF4
+P 6800 3750
+F 0 "#PWR02" H 6800 3600 50  0001 C CNN
+F 1 "+3.3V" H 6815 3923 50  0000 C CNN
+F 2 "" H 6800 3750 50  0001 C CNN
+F 3 "" H 6800 3750 50  0001 C CNN
+	1    6800 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3750 6800 3850
+Wire Wire Line
+	6800 3850 6950 3850
+Wire Wire Line
+	6950 3950 6900 3950
+Wire Wire Line
+	6900 3950 6900 5250
+$Comp
+L power:GND #PWR03
+U 1 1 5FAFB235
+P 6900 5250
+F 0 "#PWR03" H 6900 5000 50  0001 C CNN
+F 1 "GND" H 6905 5077 50  0000 C CNN
+F 2 "" H 6900 5250 50  0001 C CNN
+F 3 "" H 6900 5250 50  0001 C CNN
+	1    6900 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4050 6450 4050
+Text Label 6450 4050 0    50   ~ 0
+DISP_CS
+Text Label 6450 4150 0    50   ~ 0
+DISP_RST
+Text Label 6450 4250 0    50   ~ 0
+DISP_DC
+Text Label 6450 4350 0    50   ~ 0
+DISP_MOSI
+Text Label 6450 4450 0    50   ~ 0
+DISP_SCK
+Text Label 6450 4550 0    50   ~ 0
+DISP_LED
+Text Label 6450 4650 0    50   ~ 0
+DISP_MISO
+Text Label 6450 4750 0    50   ~ 0
+DISP_SCK
+Text Label 6450 4850 0    50   ~ 0
+TOUCH_CS
+Text Label 6450 4950 0    50   ~ 0
+DISP_MOSI
+Text Label 6450 5050 0    50   ~ 0
+DISP_MISO
+Text Label 6450 5150 0    50   ~ 0
+TOUCH_IRQ
+Wire Wire Line
+	6950 4250 6450 4250
+Wire Wire Line
+	6450 4350 6950 4350
+Wire Wire Line
+	6950 4450 6450 4450
+Wire Wire Line
+	6950 4650 6450 4650
+Wire Wire Line
+	6450 4750 6950 4750
+Wire Wire Line
+	6950 4850 6450 4850
+Wire Wire Line
+	6450 4950 6950 4950
+Wire Wire Line
+	6950 5050 6450 5050
+Wire Bus Line
+	5950 4700 5850 4700
+Wire Bus Line
+	5850 4700 5850 5150
+Wire Bus Line
+	5850 5150 5950 5150
+Text Notes 5450 5000 0    50   ~ 0
+Touch\nController
+Text Label 4400 4200 2    50   ~ 0
+DISP_SCK
+Text Label 4400 4100 2    50   ~ 0
+DISP_MISO
+Text Label 4400 4000 2    50   ~ 0
+DISP_MOSI
+Wire Wire Line
+	3800 4000 4400 4000
+Wire Wire Line
+	3800 4100 4400 4100
+Wire Wire Line
+	3800 4200 4400 4200
+Text Label 4300 2550 2    50   ~ 0
+DISP_DC
+Wire Wire Line
+	3800 2550 4300 2550
+Text Label 4250 2050 2    50   ~ 0
+DISP_CS
+Wire Wire Line
+	3800 2050 4250 2050
+Wire Wire Line
+	3850 3050 3850 1850
+Wire Wire Line
+	3850 1850 3800 1850
+Text Label 4300 2650 2    50   ~ 0
+TOUCH_CS
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5FC06A7E
+P 6400 5150
+F 0 "TP11" V 6503 5222 50  0000 C CNN
+F 1 "TP" V 6445 5338 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 6600 5150 50  0001 C CNN
+F 3 "~" H 6600 5150 50  0001 C CNN
+	1    6400 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 5150 6950 5150
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5FC31BB6
+P 5950 4550
+F 0 "TP5" V 6053 4622 50  0000 C CNN
+F 1 "TP" V 5995 4738 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 6150 4550 50  0001 C CNN
+F 3 "~" H 6150 4550 50  0001 C CNN
+	1    5950 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5FC32F57
+P 6000 4350
+F 0 "R1" H 6068 4396 50  0000 L CNN
+F 1 "10k" H 6068 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6000 4350 50  0001 C CNN
+F 3 "~" H 6000 4350 50  0001 C CNN
+	1    6000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4550 6000 4550
+Wire Wire Line
+	6000 4450 6000 4550
+Connection ~ 6000 4550
+Wire Wire Line
+	6000 4550 6950 4550
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5FC442CD
+P 6000 4200
+F 0 "#PWR01" H 6000 4050 50  0001 C CNN
+F 1 "+3.3V" H 6015 4373 50  0000 C CNN
+F 2 "" H 6000 4200 50  0001 C CNN
+F 3 "" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4200 6000 4250
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5FC52053
+P 6400 4150
+F 0 "TP10" V 6503 4222 50  0000 C CNN
+F 1 "TP" V 6445 4338 50  0001 L CNN
+F 2 "TapperFootprints:SolderPoint" H 6600 4150 50  0001 C CNN
+F 3 "~" H 6600 4150 50  0001 C CNN
+	1    6400 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 4150 6950 4150
+$EndSCHEMATC

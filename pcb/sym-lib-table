@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TapperComponents)(type Legacy)(uri ${KIPRJMOD}/TapperComponents.lib)(options "")(descr ""))
+)
