@@ -52,6 +52,19 @@ family of STM32 MCU. The ST Nucleo boards come with a built-in ST-LINK USB
 programmer/debugger, which also provides a virtual COM port connected to the
 USART on your target device.
 
+### Nucleo board modifications
+
+**Important: You probably need to modify your Nucleo board!**
+
+Remove SB2 and SB3. These short PA15 to PA6 and PB7 to PA6 -- why ST thought
+it was a good idea to ship development boards with jumpers shorting their 
+IOs is beyond me, but removing them is the first thing I do on every nucleo 
+board.
+
+Short SB11. This connects PF1 to the IO header, and is needed to drive the 
+display DC pin. Without shorting this solder bridge, the display will not
+update.
+
 ## Enclosure
 
 The enclosure can be 3D printed. Heated threaded inserts are used to provide
@@ -82,8 +95,8 @@ time I tried printing such a thing, and it was a worthwhile experiment, anyway.
 
 ## Example Software
 
-This [spincoater controller]() project uses the Tapper board, and provides an
-example software project using the [modm](modm.io) C++ peripheral library, which
+This [spincoater controller](https://github.com/mcbridejc/spincoater-controller) project uses the Tapper board, and provides an
+example software project using the [modm](https://modm.io) C++ peripheral library, which
 I highly recommend for STM32 projects.
 
 ## Photos
