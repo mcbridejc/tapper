@@ -3,6 +3,8 @@
 A flexible way to build well-packaged touch-screen based devices with 
 STM32 nucleo-32 boards. 
 
+![Tapper](images/top_assembled_1.jpg)
+
 ## Introduction
 
 I wanted a quick and easy way to bring up any kind of touch screen based 
